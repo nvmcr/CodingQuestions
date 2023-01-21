@@ -5,6 +5,7 @@ Given an integer array nums, return true if any value appears at least twice in 
 Example 1:<br>
 `Input: nums = [1,2,3,1]
 Output: true`
+
 Example 2:<br>
 `Input: nums = [1,2,3,4]
 Output: false`
@@ -17,5 +18,5 @@ Output: true
 
 Constraints:<br>
 `
-1 <= nums.length <= 10^5
+1 <= nums.length <= 10^5 <br>
 -10^9 <= nums[i] <= 10^9`
