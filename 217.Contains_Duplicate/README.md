@@ -11,12 +11,12 @@ Example 2:<br>
 Output: false`
 
 Example 3:<br>
-`
+```
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
-` 
+```
 
 Constraints:<br>
 `
-1 <= nums.length <= 10^5 <br>
+1 <= nums.length <= 10^5
 -10^9 <= nums[i] <= 10^9`
