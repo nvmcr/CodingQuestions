@@ -18,4 +18,4 @@ Output: true
 Constraints:<br>
 `
 1 <= nums.length <= 10^5
--10<sup>9</sup> <= nums[i] <= 10^9`
+$(-10^9 <= nums[i] <= 10^9/)$`
