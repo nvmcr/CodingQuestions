@@ -8,5 +8,6 @@ class Solution:
                 prevEnd = end
             else:
                 count += 1
-                prevEnd = min(end, prevEnd)
+                #Choose mininum end interval to avoid overlap
+                prevEnd = min(end, prevEnd) 
         return count
