@@ -6,9 +6,10 @@ An integer array is called arithmetic if it consists of at least three elements 
 Given an integer array nums, return the number of arithmetic subarrays of nums.
 
 A subarray is a contiguous subsequence of the array.
-```
  
 
+
+```
 Example 1:
 
 Input: nums = [1,2,3,4]
