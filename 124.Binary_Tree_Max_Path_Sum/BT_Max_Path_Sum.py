@@ -8,7 +8,7 @@ class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         # The main idea is to understand the options of splitting and not splitting
         # Declare a global variable that can be updated within recursive function
-        res = 0 # Can also use a list because and it need not be declared as nonlocal in inside function
+        res = root.val # Can also use a list (res=[root.val]) and lists need not be declared as nonlocal in inside function
 
         # Return only the values without split
         def dfs(root):
